@@ -1,6 +1,6 @@
 {
     "name": "@vladbasin/rn-ui-kitten-components-navigation",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Additional React Native components for UI Kitten library for navigation",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",

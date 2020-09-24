@@ -32,8 +32,9 @@ export const TabMenu = (props: TabMenuPropsType) => {
             selectedIndex={navigation.state.index}
             onSelect={onItemSelect}
         >
-            {props.items.map(item =>
+            {props.items.map((item, index) =>
                 <BottomNavigationTab
+                    key={`${item.title}-${index}`}
                     title={item.title}
                     icon={item.icon}
                 />
